@@ -283,3 +283,18 @@ a.aprender-mas:hover{
     border-radius: 50%;
     display: block;
 }
+/* Para celulares pequeños */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+    
+    .presentacion h1 {
+        font-size: 2rem;
+    }
+    
+    .social {
+        justify-content: center;
+        gap: 20px;
+    }
+}
