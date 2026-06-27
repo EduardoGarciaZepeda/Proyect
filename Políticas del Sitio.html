@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Políticas del Sitio | Rescate Animal</title>
+    <style>
+        :root {
+            --primary: #0066cc;
+            --accent: #14C5CC;
+            --dark: #1a1a1a;
+            --light: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #14C5CC 0%, #0a7a7f 100%);
+            color: #333;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.7;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        header {
+            background: rgba(255,255,255,0.95);
+            padding: 1.5rem 5%;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #555;
+            font-size: 1.1rem;
+            margin-top: 5px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .intro-card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .intro-card h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        section {
+            background: white;
+            border-radius: 16px;
+            padding: 35px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 3px solid var(--accent);
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+            font-size: 1.7rem;
+        }
+
+        h3 {
+            color: #0066cc;
+            margin: 25px 0 15px;
+            font-size: 1.3rem;
+        }
+
+        ul {
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+
+        .highlight {
+            background: #e6f7ff;
+            padding: 20px;
+            border-left: 6px solid var(--accent);
+            border-radius: 8px;
+            margin: 25px 0;
+        }
+
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .nav-links a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 20px;
+            background: #f0f8ff;
+            border-radius: 50px;
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: var(--accent);
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .container { padding: 0 15px; }
+            h1 { font-size: 1.9rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div>
+                <h1>🐾 Rescate Animal</h1>
+                <p class="subtitle">Políticas y Compromisos</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="intro-card">
+            <h2>Transparencia y Compromiso</h2>
+            <p style="font-size: 1.25rem; max-width: 800px; margin: 0 auto;">
+                En <strong>Rescate Animal</strong> creemos que la confianza se construye con transparencia. 
+                Aquí encontrarás todas nuestras políticas detalladas, nuestro código ético y los compromisos 
+                que asumimos con los animales, los voluntarios y la sociedad.
+            </p>
+        </div>
+
+        <!-- Tabla de contenidos -->
+        <div class="nav-links">
+            <a href="#privacidad">🔒 Privacidad</a>
+            <a href="#contenido">📸 Uso de Contenido</a>
+            <a href="#voluntariado">🤝 Voluntariado</a>
+            <a href="#donaciones">💰 Donaciones</a>
+            <a href="#etica">⚖️ Ética y Valores</a>
+            <a href="#denuncias">🚨 Denuncias</a>
+        </div>
+
+        <section id="privacidad">
+            <h2>1. Política de Privacidad y Protección de Datos</h2>
+            <p>Respetamos tu privacidad y cumplimos con la Ley de Protección de Datos Personales (LOPD y RGPD).</p>
+            <ul>
+                <li>Recopilamos solo los datos necesarios para gestionar donaciones, adopciones y voluntariado.</li>
+                <li>Tus datos nunca se venden a terceros.</li>
+                <li>Puedes ejercer tus derechos de acceso, rectificación, cancelación y oposición en cualquier momento.</li>
+                <li>Utilizamos medidas de seguridad avanzadas para proteger tu información.</li>
+            </ul>
+        </section>
+
+        <section id="contenido">
+            <h2>2. Uso de Imágenes, Videos y Testimonios</h2>
+            <p>Todas las fotografías y videos de los animales son reales y autorizadas. Nunca usamos imágenes de stock.</p>
+            <div class="highlight">
+                <strong>Compromiso:</strong> Las imágenes solo se utilizan con fines de sensibilización, adopción y rendición de cuentas. 
+                No se publicarán fotos que muestren sufrimiento innecesario o que puedan herir sensibilidades.
+            </div>
+        </section>
+
+        <section id="voluntariado">
+            <h2>3. Voluntariado y Colaboradores</h2>
+            <h3>Requisitos para ser voluntario:</h3>
+            <ul>
+                <li>Mayor de 18 años (o autorización de padres/tutores).</li>
+                <li>Compromiso mínimo de 4 horas semanales.</li>
+                <li>Participar en la formación obligatoria sobre manejo ético de animales.</li>
+                <li>Respetar las normas de bioseguridad y bienestar animal.</li>
+            </ul>
+        </section>
+
+        <section id="donaciones">
+            <h2>4. Donaciones y Transparencia Financiera</h2>
+            <p>El 100% de las donaciones se destina a la alimentación, atención veterinaria y mantenimiento de los refugios.</p>
+            <ul>
+                <li>Publicamos informes mensuales de ingresos y gastos.</li>
+                <li>Toda donación mayor a 500 € tiene seguimiento personalizado.</li>
+                <li>Contamos con auditoría anual por contadores independientes.</li>
+            </ul>
+        </section>
+
+        <section id="etica">
+            <h2>5. Posición Ética</h2>
+            <p>Rechazamos cualquier forma de maltrato, explotación, cría comercial intensiva o comercio de animales.</p>
+            <div class="highlight">
+                <strong>Nuestro lema:</strong> "Los animales no son objetos. Son seres sintientes con derecho a una vida digna."
+            </div>
+        </section>
+
+        <section id="denuncias">
+            <h2>6. Denuncias de Maltrato</h2>
+            <p>Si eres testigo de un caso de maltrato animal, puedes reportarlo directamente en esta plataforma. Todos los casos son investigados y derivados a las autoridades competentes.</p>
+            <p><strong>Teléfono de emergencias 24h:</strong> <strong>XXX-XXX-XXX</strong></p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p><strong>Maltrato animal © 2026</strong> — Todos los derechos reservados</p>
+        <p>Comprometidos con el bienestar animal desde 2018</p>
+    </footer>
+
+</body>
+</html>
